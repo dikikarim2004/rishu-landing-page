@@ -78,9 +78,9 @@ const Index = () => {
               ref={phoneRef}
               className="relative transition-transform duration-75 ease-out"
             >
-              <div className="glass-card rounded-[2.5rem] p-4 sm:p-6 max-w-[240px] sm:max-w-[280px] mx-auto h-[480px] sm:h-[580px] relative border border-white/10">
+              <div className="glass-card rounded-[2.5rem] p-4 sm:p-0 max-w-[240px] sm:max-w-[280px] mx-auto h-[480px] sm:h-[580px] relative border border-white/10">
                 {/* Phone Frame */}
-                <div className="absolute top-0 left-0 right-0 h-5 sm:h-7 bg-black/90 rounded-t-[2.5rem] flex items-center justify-center">
+                <div className="absolute top-0 left-0 right-0 h-5 sm:h-7 bg-black/0 rounded-t-[2.5rem] flex items-center justify-center">
                   <div className="w-14 sm:w-16 h-3 sm:h-4 bg-black/90 rounded-full relative">
                     <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-8 sm:w-10 h-1.5 sm:h-2 bg-neo-black rounded-full"></div>
                   </div>
@@ -89,7 +89,7 @@ const Index = () => {
                 {/* Screen Content */}
                 <div className="w-full h-full rounded-[2rem] overflow-hidden bg-gradient-to-b from-neo-purple/10 to-neo-pink/10 mt-1">
                   <img
-                    src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+                    src="/rishu.png"
                     alt="Rishu App Interface"
                     className="w-full h-full object-cover"
                   />
